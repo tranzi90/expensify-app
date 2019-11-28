@@ -6,12 +6,6 @@ import './index.css'
 import AppRouter from "./routers/AppRouter"
 import * as serviceWorker from './serviceWorker'
 import store from "./store/configureStore"
-import {addExpense} from "./actions/expenses"
-
-
-store.dispatch(addExpense({ description: 'water bill', amount: 3500 }))
-store.dispatch(addExpense({ description: 'electro bill', createdAt: 1000, amount: 420 }))
-store.dispatch(addExpense({ description: 'орендо', amount: 30000 }))
 
 const jsx = (
     <Provider store={store}>
