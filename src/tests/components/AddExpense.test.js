@@ -3,12 +3,12 @@ import {AddExpense} from "../../components/AddExpense"
 import React from "react"
 import expenses from "../fixtures/expenses"
 
-let addExpense, history, wrapper
+let startAddExpense, history, wrapper
 
 beforeEach(() => {
-    addExpense = jest.fn()
+    startAddExpense = jest.fn()
     history = { push: jest.fn() }
-    wrapper = shallow(<AddExpense addExpense={addExpense} history={history}/>)
+    wrapper = shallow(<AddExpense startAddExpense={startAddExpense} history={history}/>)
 })
 
 it('should render AddExpense correctly', () => {
@@ -18,6 +18,6 @@ it('should render AddExpense correctly', () => {
 it('should handle onSubmit', () => {
     wrapper.find('ExpenseForm').prop('onSubmit')(expenses[1])
     expect(history.push).toHaveBeenLastCalledWith('/')
-    expect(addExpense).toHaveBeenLastCalledWith(expenses[1])
+    expect(startAddExpense).toHaveBeenLastCalledWith(expenses[1])
 })
 
