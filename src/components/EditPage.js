@@ -5,7 +5,7 @@ import {startEditExpense, startRemoveExpense} from "../actions/expenses"
 
 export class EditPage extends Component {
     onSubmit = (expense) => {
-        this.props.startEditExpense(expense.id, expense)
+        this.props.startEditExpense(this.props.expense.id, expense)
         this.props.history.push('/')
     }
     render() {
