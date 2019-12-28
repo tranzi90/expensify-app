@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from "react-redux"
-import './index.css'
+import './index.scss'
 import {login, logout} from "./actions/auth"
 import AppRouter, {history} from "./routers/AppRouter"
 import * as serviceWorker from './serviceWorker'
@@ -9,6 +9,7 @@ import store from "./store/configureStore"
 import './firebase'
 import {startSetExpenses} from "./actions/expenses"
 import {firebase} from "./firebase"
+import LoadingPage from "./components/LoadingPage"
 
 const jsx = (
     <Provider store={store}>
@@ -24,6 +25,8 @@ function renderApp() {
         hasRendered = true
     }
 }
+
+ReactDOM.render(<LoadingPage />, document.getElementById('root'))
 
 firebase.auth().onAuthStateChanged((user) => {
     if (user) {

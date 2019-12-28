@@ -1,4 +1,3 @@
-// import uuid from "uuid"
 import database from "../firebase"
 
 export const addExpense = (expense) => ({

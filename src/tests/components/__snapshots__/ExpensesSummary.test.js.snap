@@ -1,25 +1,67 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should view 1 expense totalling $195 1`] = `
-<div>
-  <p>
-     
-    1
-     expenses on total sum 
-    195
-    : 
-  </p>
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header__title"
+    >
+      <span>
+        1
+      </span>
+       expenses on total sum 
+      <span>
+        195
+      </span>
+      :
+    </h1>
+    <div
+      className="page-header__actions"
+    >
+      <Link
+        className="button"
+        to="/create"
+      >
+        Add Expense
+      </Link>
+    </div>
+  </div>
 </div>
 `;
 
 exports[`should view 2 expenses totalling $114000 1`] = `
-<div>
-  <p>
-     
-    2
-     expenses on total sum 
-    114000
-    : 
-  </p>
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header__title"
+    >
+      <span>
+        2
+      </span>
+       expenses on total sum 
+      <span>
+        114000
+      </span>
+      :
+    </h1>
+    <div
+      className="page-header__actions"
+    >
+      <Link
+        className="button"
+        to="/create"
+      >
+        Add Expense
+      </Link>
+    </div>
+  </div>
 </div>
 `;

@@ -60,10 +60,10 @@ class ExpenseForm extends Component {
 
     render() {
         return (
-            <div>
-                {this.state.error}
-                <form onSubmit={this.onSubmit}>
+                <form className='form' onSubmit={this.onSubmit}>
+                    {this.state.error}
                     <input
+                        className='text-input'
                         type="text"
                         placeholder='Description'
                         autoFocus
@@ -71,6 +71,7 @@ class ExpenseForm extends Component {
                         onChange={this.onDescriptionChange}
                     />
                     <input
+                        className='text-input'
                         type="text"
                         placeholder='Amount'
                         value={this.state.amount}
@@ -85,14 +86,16 @@ class ExpenseForm extends Component {
                         isOutsideRange={() => false}
                     />
                     <textarea
+                        className='textarea'
                         placeholder='Если хош, накалякай ченить...'
                         value={this.state.note}
                         onChange={this.onNoteChange}
                     >
                     </textarea>
-                    <button>Add Expense</button>
+                    <div>
+                        <button className='button'>Save Expense</button>
+                    </div>
                 </form>
-            </div>
         )
     }
 }
