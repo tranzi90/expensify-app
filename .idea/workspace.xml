@@ -1,38 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="57ae2ad1-487c-4759-ae39-4a409002e63c" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="57ae2ad1-487c-4759-ae39-4a409002e63c" name="Default Changelist" comment="amount &amp; date formatting">
+      <change beforePath="$PROJECT_DIR$/.idea/extensify-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseListFilters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseListFilters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routers/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routers/AppRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selectors/expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/selectors/expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/configureStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/actions/expenses.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/actions/expenses.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/actions/filters.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/actions/filters.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/components/AddExpense.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/AddExpense.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/components/Dashboard.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/Dashboard.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/components/EditPage.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/EditPage.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/components/ExpenseList.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/ExpenseList.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/components/ExpenseListFilters.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/ExpenseListFilters.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/components/ExpenseListItem.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/ExpenseListItem.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/components/ExpensesSummary.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/ExpensesSummary.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/components/Header.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/Header.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/components/LoginPage.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/LoginPage.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/components/NotFoundPage.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/NotFoundPage.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/components/__snapshots__/LoadingPage.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/__snapshots__/LoadingPage.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/fixtures/expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/fixtures/expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/fixtures/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/fixtures/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/reducers/expenses.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/reducers/expenses.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/reducers/filters.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/reducers/filters.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/selectors/expenses-total.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/selectors/expenses-total.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/selectors/expenses.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/selectors/expenses.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
-  <component name="ProjectId" id="1SHI0iQeafmcCy2sHUUC65kG7Eb" />
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="10.10.0" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1U7jJf4kDKfo7Iq2bxliblWhqTL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DLevchenko\Documents\MEGA\React projects\expensify-app\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/styles" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/routers" />
+      <recent name="$PROJECT_DIR$/src/tests/components" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="firebase.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/firebase.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.firebase.js" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="Node.js.firebase.js" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -40,12 +169,189 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="57ae2ad1-487c-4759-ae39-4a409002e63c" name="Default Changelist" comment="" />
-      <created>1571213873817</created>
+      <created>1574714460092</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571213873817</updated>
-      <workItem from="1571213941797" duration="177000" />
+      <updated>1574714460092</updated>
+      <workItem from="1574714475925" duration="2167000" />
+      <workItem from="1574752936973" duration="1220000" />
+      <workItem from="1574757374493" duration="9640000" />
+      <workItem from="1574800182068" duration="694000" />
+      <workItem from="1574879113649" duration="605000" />
+      <workItem from="1574962726412" duration="3934000" />
+      <workItem from="1575058095170" duration="1969000" />
+      <workItem from="1575066891318" duration="1278000" />
+      <workItem from="1575117444692" duration="6585000" />
+      <workItem from="1575208310784" duration="2645000" />
+      <workItem from="1575274593492" duration="8235000" />
+      <workItem from="1575312945245" duration="5840000" />
+      <workItem from="1575394931830" duration="2636000" />
+      <workItem from="1575482840791" duration="1676000" />
+      <workItem from="1575735511463" duration="98000" />
+      <workItem from="1575880547438" duration="9523000" />
+      <workItem from="1575915283467" duration="2487000" />
+      <workItem from="1575925811329" duration="789000" />
+      <workItem from="1575966333970" duration="14743000" />
+      <workItem from="1576001136884" duration="887000" />
+      <workItem from="1576005423311" duration="2859000" />
+      <workItem from="1576087540216" duration="4590000" />
+      <workItem from="1576171535882" duration="7930000" />
+      <workItem from="1576260815347" duration="4912000" />
+      <workItem from="1576320647870" duration="25246000" />
+      <workItem from="1576591801501" duration="30863000" />
+      <workItem from="1576789630590" duration="756000" />
+      <workItem from="1576849856458" duration="11276000" />
+      <workItem from="1576963006053" duration="25329000" />
+      <workItem from="1577270267364" duration="7117000" />
+      <workItem from="1577306872255" duration="25760000" />
+      <workItem from="1578314978518" duration="1221000" />
+      <workItem from="1578747192073" duration="9004000" />
+      <workItem from="1578910171531" duration="278000" />
+      <workItem from="1578911574005" duration="571000" />
+      <workItem from="1578989198745" duration="661000" />
+      <workItem from="1578990618331" duration="320000" />
+      <workItem from="1578991142833" duration="582000" />
+      <workItem from="1578992848709" duration="326000" />
+      <workItem from="1578993478445" duration="65000" />
+      <workItem from="1578993740902" duration="42000" />
+      <workItem from="1578996935886" duration="39000" />
+      <workItem from="1578997771047" duration="576000" />
+      <workItem from="1578998873705" duration="12091000" />
+      <workItem from="1579038979789" duration="758000" />
+      <workItem from="1579122704093" duration="1132000" />
+      <workItem from="1579159510305" duration="2258000" />
+      <workItem from="1579196592544" duration="99000" />
+      <workItem from="1588507198922" duration="8504000" />
     </task>
+    <task id="LOCAL-00001" summary="expensify on heroku">
+      <created>1574977035199</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574977035199</updated>
+    </task>
+    <task id="LOCAL-00002" summary="amount &amp; date formatting">
+      <created>1575067322173</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575067322173</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add ExpensesSummary component">
+      <created>1575381136430</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575381136431</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add firebase config">
+      <created>1576139006858</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576139006858</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add set expenses func">
+      <created>1576245233723</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576245233869</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Setup startRemoveExpense func">
+      <created>1576333210385</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576333210385</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add startEditExpense func">
+      <created>1576423318571</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576423318571</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Setup authentication">
+      <created>1576873905175</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576873905175</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add styles">
+      <created>1577571243472</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577571243501</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="expensify on heroku" />
+    <MESSAGE value="amount &amp; date formatting" />
+    <MESSAGE value="Add ExpensesSummary component" />
+    <MESSAGE value="Add firebase config" />
+    <MESSAGE value="Add set expenses func" />
+    <MESSAGE value="Setup startRemoveExpense func" />
+    <MESSAGE value="Add startEditExpense func" />
+    <MESSAGE value="Setup authentication" />
+    <MESSAGE value="Add styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add styles" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="168" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588542294728">
+      <screen x="0" y="23" width="1536" height="857" />
+    </state>
+    <state x="168" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1536.857@0.23.1536.857" timestamp="1588542294728" />
+    <state width="1515" height="239" key="GridCell.Tab.0.bottom" timestamp="1588701171031">
+      <screen x="0" y="23" width="1536" height="857" />
+    </state>
+    <state width="1515" height="239" key="GridCell.Tab.0.bottom/0.23.1536.857@0.23.1536.857" timestamp="1588701171031" />
+    <state width="1515" height="239" key="GridCell.Tab.0.center" timestamp="1588701171031">
+      <screen x="0" y="23" width="1536" height="857" />
+    </state>
+    <state width="1515" height="239" key="GridCell.Tab.0.center/0.23.1536.857@0.23.1536.857" timestamp="1588701171031" />
+    <state width="1515" height="239" key="GridCell.Tab.0.left" timestamp="1588701171030">
+      <screen x="0" y="23" width="1536" height="857" />
+    </state>
+    <state width="1515" height="239" key="GridCell.Tab.0.left/0.23.1536.857@0.23.1536.857" timestamp="1588701171030" />
+    <state width="1515" height="239" key="GridCell.Tab.0.right" timestamp="1588701171031">
+      <screen x="0" y="23" width="1536" height="857" />
+    </state>
+    <state width="1515" height="239" key="GridCell.Tab.0.right/0.23.1536.857@0.23.1536.857" timestamp="1588701171031" />
+    <state x="507" y="154" width="670" height="676" key="search.everywhere.popup" timestamp="1588526814580">
+      <screen x="0" y="23" width="1536" height="857" />
+    </state>
+    <state x="507" y="154" width="670" height="676" key="search.everywhere.popup/0.23.1536.857@0.23.1536.857" timestamp="1588526814580" />
   </component>
 </project>
