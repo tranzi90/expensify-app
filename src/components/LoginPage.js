@@ -1,14 +1,17 @@
-import React from "react"
-import {connect} from "react-redux"
-import {startLogin} from "../actions/auth"
+import React from 'react'
+import { connect } from 'react-redux'
+import { startLogin } from '../actions/auth'
 
-export function LoginPage({startLogin}) {
+export function LoginPage({ startLogin }) {
     return (
-        <div className='box-layout'>
+        <div className="box-layout">
             <div className="box-layout__box">
                 <h1 className="box-layout__title">Expensify</h1>
                 <p>Control your budget!</p>
-                <button onClick={startLogin} className='button'>Login with Google</button>
+                <button onClick={startLogin} className="button">
+                    Login with Google
+                </button>
+                <button className="button button--secondary">Sign Up</button>
             </div>
         </div>
     )
@@ -16,7 +19,7 @@ export function LoginPage({startLogin}) {
 
 function mapDispatchToProps(dispatch) {
     return {
-        startLogin: () => dispatch(startLogin())
+        startLogin: () => dispatch(startLogin()),
     }
 }
 

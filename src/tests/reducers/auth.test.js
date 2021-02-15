@@ -1,4 +1,4 @@
-import authReducer from "../../reducers/auth"
+import authReducer from '../../reducers/auth'
 
 it('should set uid for login', () => {
     const state = authReducer(undefined, { type: 'LOGIN', uid: 'testId' })
@@ -9,6 +9,5 @@ it('should set uid for login', () => {
 it('should clear uid for logout', () => {
     const state = authReducer(undefined, { type: 'LOGOUT' })
 
-    expect(state).toEqual({ })
+    expect(state).toEqual({})
 })
-

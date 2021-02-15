@@ -1,14 +1,16 @@
-import { shallow } from "enzyme"
-import {AddExpense} from "../../components/AddExpense"
-import React from "react"
-import expenses from "../fixtures/expenses"
+import { shallow } from 'enzyme'
+import { AddExpense } from '../../components/AddExpense'
+import React from 'react'
+import expenses from '../fixtures/expenses'
 
 let startAddExpense, history, wrapper
 
 beforeEach(() => {
     startAddExpense = jest.fn()
     history = { push: jest.fn() }
-    wrapper = shallow(<AddExpense startAddExpense={startAddExpense} history={history}/>)
+    wrapper = shallow(
+        <AddExpense startAddExpense={startAddExpense} history={history} />
+    )
 })
 
 it('should render AddExpense correctly', () => {
@@ -20,4 +22,3 @@ it('should handle onSubmit', () => {
     expect(history.push).toHaveBeenLastCalledWith('/')
     expect(startAddExpense).toHaveBeenLastCalledWith(expenses[1])
 })
-

@@ -1,7 +1,3 @@
-import React from "react"
+import React from 'react'
 
-export default () => (
-    <div>
-        Nema ce
-    </div>
-)
+export default () => <div>Nema ce</div>

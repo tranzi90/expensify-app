@@ -1,7 +1,7 @@
-import React from "react"
+import React from 'react'
 
 export default () => (
-    <div className='loader'>
-        <img src="/images/loader.gif" className='loader__image' alt=''/>
+    <div className="loader">
+        <img src="/images/loader.gif" className="loader__image" alt="" />
     </div>
 )

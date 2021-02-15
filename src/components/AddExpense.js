@@ -1,7 +1,7 @@
-import {connect} from "react-redux"
-import ExpenseForm from "./ExpenseForm"
-import {startAddExpense} from "../actions/expenses"
-import React, {Component} from 'react'
+import { connect } from 'react-redux'
+import ExpenseForm from './ExpenseForm'
+import { startAddExpense } from '../actions/expenses'
+import React, { Component } from 'react'
 
 export class AddExpense extends Component {
     onSubmit = (expense) => {
@@ -17,9 +17,7 @@ export class AddExpense extends Component {
                     </div>
                 </div>
                 <div className="content-container">
-                    <ExpenseForm
-                        onSubmit={this.onSubmit}
-                    />
+                    <ExpenseForm onSubmit={this.onSubmit} />
                 </div>
             </div>
         )
@@ -28,7 +26,7 @@ export class AddExpense extends Component {
 
 function mapDispatchToProps(dispatch) {
     return {
-        startAddExpense: (expense) => dispatch(startAddExpense(expense))
+        startAddExpense: (expense) => dispatch(startAddExpense(expense)),
     }
 }
 

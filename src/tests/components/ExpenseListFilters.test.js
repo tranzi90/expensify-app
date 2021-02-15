@@ -1,9 +1,9 @@
-import { shallow } from "enzyme"
-import {ExpenseListFilters} from "../../components/ExpenseListFilters"
-import React from "react"
-import {filters, altFilters} from "../fixtures/filters"
-import moment from "moment"
-import {DateRangePicker} from "react-dates"
+import { shallow } from 'enzyme'
+import { ExpenseListFilters } from '../../components/ExpenseListFilters'
+import React from 'react'
+import { filters, altFilters } from '../fixtures/filters'
+import moment from 'moment'
+import { DateRangePicker } from 'react-dates'
 
 let setTextFilter, sortByDate, sortByAmount, setStartDate, setEndDate, wrapper
 
@@ -21,7 +21,8 @@ beforeEach(() => {
             sortByAmount={sortByAmount}
             setStartDate={setStartDate}
             setEndDate={setEndDate}
-    />)
+        />
+    )
 })
 
 it('should render ExpenseListFilters correctly', () => {
@@ -29,7 +30,7 @@ it('should render ExpenseListFilters correctly', () => {
 })
 
 it('should render ExpenseListFilters with alt data correctly', () => {
-    wrapper.setProps({ filters: altFilters})
+    wrapper.setProps({ filters: altFilters })
     expect(wrapper).toMatchSnapshot()
 })
 
@@ -54,7 +55,7 @@ it('should sort by amount', () => {
 it('should handle date changes', () => {
     const startDate = moment(0)
     const endDate = moment()
-    wrapper.find(DateRangePicker).prop('onDatesChange')({startDate, endDate})
+    wrapper.find(DateRangePicker).prop('onDatesChange')({ startDate, endDate })
     expect(setStartDate).toHaveBeenLastCalledWith(startDate)
     expect(setEndDate).toHaveBeenLastCalledWith(endDate)
 })
@@ -64,4 +65,3 @@ it('should handle date focus changes', () => {
     wrapper.find(DateRangePicker).prop('onFocusChange')(focus)
     expect(wrapper.state('calendarFocused')).toBe(focus)
 })
-

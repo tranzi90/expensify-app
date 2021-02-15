@@ -1,34 +1,34 @@
 function setTextFilter(text = '') {
     return {
         type: 'SET_TEXT_FILTER',
-        text
+        text,
     }
 }
 
 function sortByAmount() {
     return {
-        type: 'SORT_BY_AMOUNT'
+        type: 'SORT_BY_AMOUNT',
     }
 }
 
 function sortByDate() {
     return {
-        type: 'SORT_BY_DATE'
+        type: 'SORT_BY_DATE',
     }
 }
 
 function setStartDate(startDate) {
     return {
         type: 'SET_START_DATE',
-        startDate
+        startDate,
     }
 }
 
 function setEndDate(endDate) {
     return {
         type: 'SET_END_DATE',
-        endDate
+        endDate,
     }
 }
 
-export {setEndDate, setStartDate, setTextFilter, sortByAmount, sortByDate}
+export { setEndDate, setStartDate, setTextFilter, sortByAmount, sortByDate }
