@@ -48,7 +48,7 @@ class ExpenseForm extends Component {
         e.preventDefault()
 
         if (!this.state.description || !this.state.amount) {
-            this.setState(() => ({ error: 'нада описание и сумму' }))
+            this.setState(() => ({ error: 'Description and amount fields are required.' }))
         } else {
             this.setState(() => ({ error: '' }))
             this.props.onSubmit({
@@ -89,7 +89,7 @@ class ExpenseForm extends Component {
                 />
                 <textarea
                     className="textarea"
-                    placeholder="Если хош, накалякай ченить..."
+                    placeholder="Type in any note, if necessary..."
                     value={this.state.note}
                     onChange={this.onNoteChange}
                 ></textarea>
