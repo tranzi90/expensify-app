@@ -11,7 +11,7 @@ export function LoginPage({ startLogin }) {
                 <button onClick={startLogin} className="button">
                     Login with Google
                 </button>
-                <button className="button button--secondary">Sign Up</button>
+                {/*<button className="button button--secondary">Sign Up</button>*/}
             </div>
         </div>
     )
