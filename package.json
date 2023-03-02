@@ -12,7 +12,7 @@
     "cross-env": "^6.0.3",
     "firebase": "^7.5.0",
     "moment": "^2.24.0",
-    "node-sass": "^4.13.0",
+    "sass": "latest",
     "numeral": "^2.0.6",
     "react": "^16.10.2",
     "react-dates": "^21.3.2",
@@ -34,7 +34,7 @@
     "react-test-renderer": "^16.11.0"
   },
   "scripts": {
-    "start": "react-scripts start --openssl-legacy-provider",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
